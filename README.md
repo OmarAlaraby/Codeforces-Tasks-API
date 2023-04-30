@@ -6,7 +6,7 @@
 
 ## end points
 
-you can make GET requset to the end point : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
+### you can make GET requset to the end point : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
 
 make sure to do the following steps:
 - replace the number_of_problems with an integer value
@@ -14,7 +14,8 @@ make sure to do the following steps:
 
 **Note:** if you passed rate = 1000. So, the API will return problems with rate [900, 1000, 1100]
 
+<br><br><br>
 
-you can make GET request to the end point : http://127.0.0.1:8000/api/all-tasks/
+### you can make GET request to the end point : http://127.0.0.1:8000/api/all-tasks/
 
 it returns all tasks you have requested
