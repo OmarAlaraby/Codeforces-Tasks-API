@@ -25,7 +25,7 @@ and more than 3000+ problem stored in the database.
 
 3. go to project's direction
 
-'cd Codeforces-Tasks-API'
+`cd Codeforces-Tasks-API`
 
 <br>
 
