@@ -10,7 +10,7 @@ import math
 @api_view(['GET'])
 def TaskView(request):
     serialzer = TaskSerialzer(Task.objects.all(), many=True)
-    return Response({"Tasks" : serialzer.data}, status.HTTP_200_OK)
+    return Response({"Tasks" : serialzer.data}, status.HTTP_400_BAD_REQUEST)
 
 class ProblemView(viewsets.ModelViewSet):
     queryset = Problem.objects.all()
@@ -39,6 +39,9 @@ class ProblemView(viewsets.ModelViewSet):
 
 @api_view(['GET'])
 def Get_New_Task(request, curr_rate, number_of_problems):
+    
+    if not (curr_rate % 10 == 0 and curr_rate >= 800 and curr_rate <= 4000):
+        return Response({"ERROR" : "ENTER A VALID RATE"}, status.bad)
     
     task = Task.objects.create()
     
