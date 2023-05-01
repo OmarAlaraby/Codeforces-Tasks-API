@@ -60,7 +60,7 @@ enjoy :)
 
 ##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
 
-![Respnse](https://drive.google.com/file/d/10E5Zl1Y9ZSKWAVv4ZLC3MsU2xDNy6sN7/view?usp=share_link)
+![Respnse](/Git Images/CodeFroces Task API.png)
 
 make sure to do the following steps:
 1. replace the number_of_problems with an integer value
