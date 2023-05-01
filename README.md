@@ -9,7 +9,7 @@ and more than 3000+ problem stored in the database.
 ## installation
 
 colne the repo using the following command :
-```
+
 git clone https://github.com/OmarAlaraby/Codeforces-Tasks-API.git
 ```
 
