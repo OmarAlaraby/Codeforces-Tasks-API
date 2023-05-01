@@ -47,6 +47,8 @@ now you are ready to call the endpoints
 
 enjoy :)
 
+<br><hr><br>
+
 ## end points
 <br>
 
