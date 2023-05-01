@@ -14,11 +14,14 @@ and more than 3000+ problem stored in the database.
 
 ` git clone https://github.com/OmarAlaraby/Codeforces-Tasks-API.git `
 
+<br>
+
 
 2. install pipenv
 
 `pip install pipenv`
 
+<br>
 
 3. open the project's folder and run those commands :
 
@@ -26,16 +29,19 @@ activate the virtual environment
 
 `pipenv shell`
 
+<br>
 
 4. install dependency
 
 `pipenv install Pipfile`
 
+<br>
 
 5. run the local server
 
 `python manage.py runserver`
 
+<br>
 
 now you are ready to call the endpoints
 
