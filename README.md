@@ -60,7 +60,7 @@ enjoy :)
 
 ##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
 
-![Respnse](~/Pictures/Git Images)
+![Respnse](./Pictures/Git Images)
 
 make sure to do the following steps:
 1. replace the number_of_problems with an integer value
