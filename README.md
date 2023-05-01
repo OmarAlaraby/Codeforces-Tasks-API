@@ -10,20 +10,20 @@ and more than 3000+ problem stored in the database.
 
 ### follow those steps carefully
 
-1. colne the repo using the following command :
+1. ##### colne the repo using the following command :
 
 ` git clone https://github.com/OmarAlaraby/Codeforces-Tasks-API.git `
 
 <br>
 
 
-2. install pipenv
+2. ##### install pipenv
 
 `pip install pipenv`
 
 <br>
 
-3. open the project's folder and run those commands :
+3. ##### open the project's folder and run those commands :
 
 activate the virtual environment
 
@@ -31,13 +31,13 @@ activate the virtual environment
 
 <br>
 
-4. install dependency
+4. ##### install dependency
 
 `pipenv install Pipfile`
 
 <br>
 
-5. run the local server
+5. ##### run the local server
 
 `python manage.py runserver`
 
