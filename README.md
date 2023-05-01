@@ -1,7 +1,7 @@
 # Codeforces-Tasks-API
 
 this API allow you to create a task consists of any number of problems and any rate range you want.
-more than 3000+ problem stored in the database.
+and more than 3000+ problem stored in the database.
 
 <hr>
 <br>
