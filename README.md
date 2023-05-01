@@ -6,7 +6,9 @@
 
 ## end points
 
-### you can make GET requset to the end point : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
+### Create new task
+
+##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
 
 make sure to do the following steps:
 - replace the number_of_problems with an integer value
@@ -16,6 +18,20 @@ make sure to do the following steps:
 
 <br><br><br>
 
-### you can make GET request to the end point : http://127.0.0.1:8000/api/all-tasks/
+### view all tasks you have created : 
+##### endpoint : http://127.0.0.1:8000/api/all-tasks/
 
-it returns all tasks you have requested
+
+<br><br><br>
+
+### delete all tasks you have created
+##### endpoint : http://127.0.0.1:8000/api/clear-all-tasks/
+
+<br><br><br>
+
+### restore all problems
+##### endpoint : http://127.0.0.1:8000/api/restore-all-problems/
+
+why you need to restore problems ?
+
+the problems in all tasks are unique. So, if deleted all tasks you need to restore all problems if you want.
