@@ -60,9 +60,6 @@ enjoy :)
 
 ##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
 
-![Respnse](/Users/OmarAlaraby/Documents/
-Codeforces-Tasks-API/Git Images/CodeFroces Task API.png)
-
 make sure to do the following steps:
 1. replace the number_of_problems with an integer value
 2. replace the curr_rate with the range rate you want , make sure it's a valid rate
