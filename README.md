@@ -66,6 +66,8 @@ make sure to do the following steps:
 
 **Note:** if you passed rate = 1000. So, the API will return problems with rate [900, 1000, 1100]
 
+![CodeFroces Task API](https://user-images.githubusercontent.com/99359641/235442398-213db619-6a09-4937-b973-35e8e4c80b97.png)
+
 <br><br>
 
 - ### view all tasks you have created : 
