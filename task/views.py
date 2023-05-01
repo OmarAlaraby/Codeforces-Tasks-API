@@ -63,3 +63,26 @@ def Get_New_Task(request, curr_rate, number_of_problems):
     task.save()
     serializer = TaskSerialzer(task)
     return Response({"Task" : serializer.data}, status.HTTP_200_OK)
+
+
+# delete all tasks and restore the problems
+@api_view(['POST'])
+def clear_tasks(request):
+    tasks = Task.objects.all()
+    for task in tasks:
+        for problem in task.problems:
+            problem.is_solved = False
+            problem.save()
+        task.problems.clear()
+    
+    tasks.delete()
+    return Response({"Respons" : "all tasks has been deleted"} , status.HTTP_200_OK)
+
+# restore problems ( set is_solved to False)
+@api_view(['POST'])
+def restore_problems(request):
+    problems = Problem.objects.filter(is_solved=True)
+    for problem in problems:
+        problem.is_solved = False
+        problem.save()
+    return Response({"Respons" : "all problems has been restored"} , status.HTTP_200_OK)
