@@ -35,13 +35,13 @@ and more than 3000+ problem stored in the database.
 
 <br>
 
-4. ##### install dependency
+5. ##### install dependency
 
 `pipenv install Pipfile`
 
 <br>
 
-5. ##### run the local server
+6. ##### run the local server
 
 `python manage.py runserver`
 
