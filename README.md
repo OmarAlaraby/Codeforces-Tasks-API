@@ -23,9 +23,13 @@ and more than 3000+ problem stored in the database.
 
 <br>
 
-3. ##### open the project's folder and run those commands :
+3. go to project's direction
 
-activate the virtual environment
+'cd Codeforces-Tasks-API'
+
+<br>
+
+4. activate the virtual environment
 
 `pipenv shell`
 
