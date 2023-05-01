@@ -64,9 +64,9 @@ make sure to do the following steps:
 1. replace the number_of_problems with an integer value
 2. replace the curr_rate with the range rate you want , make sure it's a valid rate
 
-**Note:** if you passed rate = 1000. So, the API will return problems with rate [900, 1000, 1100]
-
 ![CodeFroces Task API](https://user-images.githubusercontent.com/99359641/235442398-213db619-6a09-4937-b973-35e8e4c80b97.png)
+
+**Note:** if you passed rate = 1000. So, the API will return problems with rate [900, 1000, 1100]
 
 <br><br>
 
