@@ -69,7 +69,7 @@ def Get_New_Task(request, curr_rate, number_of_problems):
 
 
 # delete all tasks and restore the problems
-@api_view(['POST'])
+@api_view(['GET'])
 def clear_tasks(request):
     tasks = Task.objects.all()
     for task in tasks:
@@ -82,7 +82,7 @@ def clear_tasks(request):
     return Response({"Respons" : "all tasks has been deleted"} , status.HTTP_200_OK)
 
 # restore problems ( set is_solved to False)
-@api_view(['POST'])
+@api_view(['GET'])
 def restore_problems(request):
     problems = Problem.objects.filter(is_solved=True)
     for problem in problems:
