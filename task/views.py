@@ -1,20 +1,24 @@
 from rest_framework import viewsets , status
-from .models import Problem , Task
+from project.settings import REST_FRAMEWORK
+from .models import Problem , Task , Trainee
 from .serializers import ProblemSerialzer , TaskSerialzer
+from .permissions import IsRegistered , UnRegistered
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view , permission_classes
 import math
 
 
 
 @api_view(['GET'])
+@permission_classes([IsRegistered])
 def TaskView(request):
     serialzer = TaskSerialzer(Task.objects.all(), many=True)
-    return Response({"Tasks" : serialzer.data}, status.HTTP_400_BAD_REQUEST)
+    return Response({"Tasks" : serialzer.data}, status.HTTP_200_OK)
 
 class ProblemView(viewsets.ModelViewSet):
     queryset = Problem.objects.all()
     serializer_class = ProblemSerialzer
+    permission_classes = [IsRegistered]
     
     def gen_url(self ,contest_id , index):
         return f"https://codeforces.com/contest/{contest_id}/problem/{index}"
@@ -38,7 +42,11 @@ class ProblemView(viewsets.ModelViewSet):
 
 
 @api_view(['GET'])
-def Get_New_Task(request, curr_rate, number_of_problems):
+@permission_classes([IsRegistered])
+def Get_New_Task(request):
+    user = Trainee.objects.first()
+    curr_rate = user.rate
+    number_of_problems = user.number_of_problems
     
     if not (curr_rate % 10 == 0 and curr_rate >= 800 and curr_rate <= 4000):
         return Response({"ERROR" : "ENTER A VALID RATE"}, status.bad)
@@ -68,21 +76,32 @@ def Get_New_Task(request, curr_rate, number_of_problems):
     return Response({"Task" : serializer.data}, status.HTTP_200_OK)
 
 
+
+@api_view(['POST'])
+@permission_classes([UnRegistered])
+def sign_up(request , Handle , Rate , NOP):
+    if Rate % 100 != 0 or NOP > 20:
+        return Response({"Response" : "Rate must be valid and number of problems shouldn't be larger tha 20"} , status.HTTP_400_BAD_REQUEST)
+    
+    Trainee.objects.create(Handle=Handle, rate=Rate, number_of_problems=NOP)
+    return Response({"Response" : "User Added"} , status.HTTP_200_OK)
+
+
+
+
+# ------------------- for testing ----------------- #
+
 # delete all tasks and restore the problems
 @api_view(['GET'])
+@permission_classes([IsRegistered])
 def clear_tasks(request):
     tasks = Task.objects.all()
-    for task in tasks:
-        for problem in task.problems:
-            problem.is_solved = False
-            problem.save()
-        task.problems.clear()
-    
     tasks.delete()
     return Response({"Respons" : "all tasks has been deleted"} , status.HTTP_200_OK)
 
 # restore problems ( set is_solved to False)
 @api_view(['GET'])
+@permission_classes([IsRegistered])
 def restore_problems(request):
     problems = Problem.objects.filter(is_solved=True)
     for problem in problems:

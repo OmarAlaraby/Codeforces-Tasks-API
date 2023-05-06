@@ -9,6 +9,7 @@ django-restframework = "*"
 django-rest-framework = "*"
 pipfile = "*"
 django-cors-headers = "*"
+djoser = "*"
 
 [dev-packages]
 

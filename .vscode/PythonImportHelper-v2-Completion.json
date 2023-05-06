@@ -1,0 +1,834 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionDenied",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "isExtraImport": true,
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "project.asgi",
+        "description": "project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-%0jk=egv&g1@53386j$c7xh&l)z#1^h3rb0s5u%cvirt!+g)ms'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-%0jk=egv&g1@53386j$c7xh&l)z#1^h3rb0s5u%cvirt!+g)ms'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework', 'corsheaders',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework', 'corsheaders',\n    'djoser',\n    # apps",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n]\n# Allow all HTTP methods\nCORS_ALLOW_ALL_METHODS = True\n# REST framework settings\nREST_FRAMEWORK = {\n    # 'DEFAULT_AUTHENTICATION_CLASSES': [\n    #     #'rest_framework_simplejwt.authentication.JWTAuthentication',\n    #     'rest_framework.authentication.TokenAuthentication',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_METHODS",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_METHODS = True\n# REST framework settings\nREST_FRAMEWORK = {\n    # 'DEFAULT_AUTHENTICATION_CLASSES': [\n    #     #'rest_framework_simplejwt.authentication.JWTAuthentication',\n    #     'rest_framework.authentication.TokenAuthentication',\n    #     'rest_framework.authentication.SessionAuthentication',\n    # ], \n    # 'DEFAULT_FILTER_BACKENDS': [\n    #     'django_filters.rest_framework.DjangoFilterBackend',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # 'DEFAULT_AUTHENTICATION_CLASSES': [\n    #     #'rest_framework_simplejwt.authentication.JWTAuthentication',\n    #     'rest_framework.authentication.TokenAuthentication',\n    #     'rest_framework.authentication.SessionAuthentication',\n    # ], \n    # 'DEFAULT_FILTER_BACKENDS': [\n    #     'django_filters.rest_framework.DjangoFilterBackend',\n    #     'rest_framework.filters.OrderingFilter',\n    #     'rest_framework.filters.SearchFilter',",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "project.settings",
+        "description": "project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "project.urls",
+        "description": "project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('task.urls')),\n    # path('auth/', include('djoser.urls')),\n    # path('auth/', include('djoser.urls.authtoken')),\n]",
+        "detail": "project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "project.wsgi",
+        "description": "project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0001_initial",
+        "description": "task.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Problem',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50)),",
+        "detail": "task.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0002_problem_is_solved_problem_rate",
+        "description": "task.migrations.0002_problem_is_solved_problem_rate",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='problem',\n            name='is_solved',\n            field=models.BooleanField(default=False, null=True),\n        ),",
+        "detail": "task.migrations.0002_problem_is_solved_problem_rate",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0003_remove_problem_problem_id",
+        "description": "task.migrations.0003_remove_problem_problem_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0002_problem_is_solved_problem_rate'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='problem',\n            name='problem_id',\n        ),\n    ]",
+        "detail": "task.migrations.0003_remove_problem_problem_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0004_alter_task_problems",
+        "description": "task.migrations.0004_alter_task_problems",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0003_remove_problem_problem_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='task',\n            name='problems',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='Task', to='task.problem'),\n        ),",
+        "detail": "task.migrations.0004_alter_task_problems",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0005_alter_task_problems",
+        "description": "task.migrations.0005_alter_task_problems",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0004_alter_task_problems'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='task',\n            name='problems',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='problems', to='task.problem'),\n        ),",
+        "detail": "task.migrations.0005_alter_task_problems",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0006_alter_task_problems",
+        "description": "task.migrations.0006_alter_task_problems",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0005_alter_task_problems'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='task',\n            name='problems',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='Task', to='task.problem'),\n        ),",
+        "detail": "task.migrations.0006_alter_task_problems",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0007_remove_task_problems_task_problems",
+        "description": "task.migrations.0007_remove_task_problems_task_problems",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0006_alter_task_problems'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='task',\n            name='problems',\n        ),\n        migrations.AddField(",
+        "detail": "task.migrations.0007_remove_task_problems_task_problems",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0008_alter_task_problems",
+        "description": "task.migrations.0008_alter_task_problems",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0007_remove_task_problems_task_problems'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='task',\n            name='problems',\n            field=models.ManyToManyField(blank=True, related_name='Task', to='task.problem'),\n        ),",
+        "detail": "task.migrations.0008_alter_task_problems",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0009_user_alter_problem_name",
+        "description": "task.migrations.0009_user_alter_problem_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('task', '0008_alter_task_problems'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('user_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to=settings.AUTH_USER_MODEL)),",
+        "detail": "task.migrations.0009_user_alter_problem_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "task.migrations.0010_trainee_delete_user",
+        "description": "task.migrations.0010_trainee_delete_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('task', '0009_user_alter_problem_name'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Trainee',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Handle', models.CharField(max_length=255)),",
+        "detail": "task.migrations.0010_trainee_delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "TaskConfig",
+        "kind": 6,
+        "importPath": "task.apps",
+        "description": "task.apps",
+        "peekOfCode": "class TaskConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'task'",
+        "detail": "task.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Problem",
+        "kind": 6,
+        "importPath": "task.models",
+        "description": "task.models",
+        "peekOfCode": "class Problem(models.Model):\n    name = models.CharField(max_length=255)\n    rate = models.IntegerField(db_index=True)\n    is_solved = models.BooleanField(default=False, null=True)\n    url = models.URLField(max_length=200)\n    def __str__(self):\n        return self.name\nclass Task(models.Model):\n    problems = models.ManyToManyField(Problem, related_name='Task', blank=True)\nclass Trainee(models.Model):",
+        "detail": "task.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "task.models",
+        "description": "task.models",
+        "peekOfCode": "class Task(models.Model):\n    problems = models.ManyToManyField(Problem, related_name='Task', blank=True)\nclass Trainee(models.Model):\n    Handle = models.CharField(max_length=255)\n    rate = models.IntegerField(db_index=True, default=800)\n    number_of_problems = models.IntegerField(default=0)\n    def __str__(self):\n        return self.Handle",
+        "detail": "task.models",
+        "documentation": {}
+    },
+    {
+        "label": "Trainee",
+        "kind": 6,
+        "importPath": "task.models",
+        "description": "task.models",
+        "peekOfCode": "class Trainee(models.Model):\n    Handle = models.CharField(max_length=255)\n    rate = models.IntegerField(db_index=True, default=800)\n    number_of_problems = models.IntegerField(default=0)\n    def __str__(self):\n        return self.Handle",
+        "detail": "task.models",
+        "documentation": {}
+    },
+    {
+        "label": "IsRegistered",
+        "kind": 6,
+        "importPath": "task.permissions",
+        "description": "task.permissions",
+        "peekOfCode": "class IsRegistered(permissions.BasePermission):\n    def has_permission(self, request, view):\n        return Trainee.objects.first() != None\nclass UnRegistered(permissions.BasePermission):\n    message = 'the user is already registered'\n    def has_permission(self, request, view):\n        if Trainee.objects.first() == None:\n            return True\n        else:\n            raise PermissionDenied(self.message)",
+        "detail": "task.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "UnRegistered",
+        "kind": 6,
+        "importPath": "task.permissions",
+        "description": "task.permissions",
+        "peekOfCode": "class UnRegistered(permissions.BasePermission):\n    message = 'the user is already registered'\n    def has_permission(self, request, view):\n        if Trainee.objects.first() == None:\n            return True\n        else:\n            raise PermissionDenied(self.message)",
+        "detail": "task.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "ProblemSerialzer",
+        "kind": 6,
+        "importPath": "task.serializers",
+        "description": "task.serializers",
+        "peekOfCode": "class ProblemSerialzer(serializers.ModelSerializer):\n    class Meta:\n        model = Problem\n        fields = '__all__'\nclass TaskSerialzer(serializers.ModelSerializer):\n    problems = ProblemSerialzer(many=True)\n    class Meta:\n        model = Task\n        fields = '__all__'\n        depth = 2",
+        "detail": "task.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TaskSerialzer",
+        "kind": 6,
+        "importPath": "task.serializers",
+        "description": "task.serializers",
+        "peekOfCode": "class TaskSerialzer(serializers.ModelSerializer):\n    problems = ProblemSerialzer(many=True)\n    class Meta:\n        model = Task\n        fields = '__all__'\n        depth = 2\nclass TraineeSerialzer(serializers.ModelSerializer):\n    class Meta:\n        model = Trainee\n        fields = '__all__'",
+        "detail": "task.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TraineeSerialzer",
+        "kind": 6,
+        "importPath": "task.serializers",
+        "description": "task.serializers",
+        "peekOfCode": "class TraineeSerialzer(serializers.ModelSerializer):\n    class Meta:\n        model = Trainee\n        fields = '__all__'",
+        "detail": "task.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "task.urls",
+        "description": "task.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'problems', views.ProblemView, basename='problem')\nurlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n] + router.urls",
+        "detail": "task.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "task.urls",
+        "description": "task.urls",
+        "peekOfCode": "urlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n] + router.urls",
+        "detail": "task.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ProblemView",
+        "kind": 6,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "class ProblemView(viewsets.ModelViewSet):\n    queryset = Problem.objects.all()\n    serializer_class = ProblemSerialzer\n    permission_classes = [IsRegistered]\n    def gen_url(self ,contest_id , index):\n        return f\"https://codeforces.com/contest/{contest_id}/problem/{index}\"\n    def create(self ,request):\n        data = request.data\n        for problem in data: \n            contest_id = problem['contestId']",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskView",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def TaskView(request):\n    serialzer = TaskSerialzer(Task.objects.all(), many=True)\n    return Response({\"Tasks\" : serialzer.data}, status.HTTP_200_OK)\nclass ProblemView(viewsets.ModelViewSet):\n    queryset = Problem.objects.all()\n    serializer_class = ProblemSerialzer\n    permission_classes = [IsRegistered]\n    def gen_url(self ,contest_id , index):\n        return f\"https://codeforces.com/contest/{contest_id}/problem/{index}\"\n    def create(self ,request):",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "Get_New_Task",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def Get_New_Task(request):\n    user = Trainee.objects.first()\n    curr_rate = user.rate\n    number_of_problems = user.number_of_problems\n    if not (curr_rate % 10 == 0 and curr_rate >= 800 and curr_rate <= 4000):\n        return Response({\"ERROR\" : \"ENTER A VALID RATE\"}, status.bad)\n    task = Task.objects.create()\n    problems = Problem.objects.filter(rate=curr_rate - (100 if curr_rate > 800 else curr_rate), is_solved=False)\n    for i in range(min(len(problems) , math.ceil(number_of_problems / 3))):\n        problems[i].Task.add(task)",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "sign_up",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def sign_up(request , Handle , Rate , NOP):\n    if Rate % 100 != 0 or NOP > 20:\n        return Response({\"Response\" : \"Rate must be valid and number of problems shouldn't be larger tha 20\"} , status.HTTP_400_BAD_REQUEST)\n    Trainee.objects.create(Handle=Handle, rate=Rate, number_of_problems=NOP)\n    return Response({\"Response\" : \"User Added\"} , status.HTTP_200_OK)\n# ------------------- for testing ----------------- #\n# delete all tasks and restore the problems\n@api_view(['GET'])\n@permission_classes([IsRegistered])\ndef clear_tasks(request):",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "clear_tasks",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def clear_tasks(request):\n    tasks = Task.objects.all()\n    tasks.delete()\n    return Response({\"Respons\" : \"all tasks has been deleted\"} , status.HTTP_200_OK)\n# restore problems ( set is_solved to False)\n@api_view(['GET'])\n@permission_classes([IsRegistered])\ndef restore_problems(request):\n    problems = Problem.objects.filter(is_solved=True)\n    for problem in problems:",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "restore_problems",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def restore_problems(request):\n    problems = Problem.objects.filter(is_solved=True)\n    for problem in problems:\n        problem.is_solved = False\n        problem.save()\n    return Response({\"Respons\" : \"all problems has been restored\"} , status.HTTP_200_OK)",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
