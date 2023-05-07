@@ -12,5 +12,6 @@ urlpatterns = [
     path('clear-all-tasks/', views.clear_tasks),
     path('restore-all-problems/', views.restore_problems),
     path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),
+    path('update-user/', views.user_update),
     
 ] + router.urls

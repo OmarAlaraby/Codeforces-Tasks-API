@@ -87,12 +87,29 @@ def sign_up(request , Handle , Rate , NOP):
     return Response({"Response" : "User Added"} , status.HTTP_200_OK)
 
 
+@api_view(['PUT'])
+@permission_classes([IsRegistered])
+def user_update(request):
+    user = Trainee.objects.first()
+    
+    new_handle = request.data.get('handle', user.Handle)
+    new_rate = request.data.get('rate', user.rate)
+    new_NOP = request.data.get('NOP', user.number_of_problems)
+    
+    if new_handle == user.Handle and new_rate == user.rate and new_NOP == user.number_of_problems:
+        return Response({"Response" : "NOTHING TO UPDATE"} , status.HTTP_400_BAD_REQUEST)
+    
+    user.Handle = new_handle
+    user.rate = new_rate
+    user.number_of_problems = new_NOP
+    user.save()
+    return Response({"Response" : "user data updated"}, status.HTTP_200_OK)
 
 
 # ------------------- for testing ----------------- #
 
 # delete all tasks and restore the problems
-@api_view(['GET'])
+@api_view(['DELETE'])
 @permission_classes([IsRegistered])
 def clear_tasks(request):
     tasks = Task.objects.all()

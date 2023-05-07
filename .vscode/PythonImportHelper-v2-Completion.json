@@ -755,7 +755,7 @@
         "kind": 5,
         "importPath": "task.urls",
         "description": "task.urls",
-        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'problems', views.ProblemView, basename='problem')\nurlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n] + router.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'problems', views.ProblemView, basename='problem')\nurlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n    path('update-user/', views.user_update),\n] + router.urls",
         "detail": "task.urls",
         "documentation": {}
     },
@@ -764,7 +764,7 @@
         "kind": 5,
         "importPath": "task.urls",
         "description": "task.urls",
-        "peekOfCode": "urlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n] + router.urls",
+        "peekOfCode": "urlpatterns = [\n    path('get-new-task/', views.Get_New_Task),\n    path('all-tasks/', views.TaskView),\n    path('clear-all-tasks/', views.clear_tasks),\n    path('restore-all-problems/', views.restore_problems),\n    path('sign-up/<str:Handle>/<int:Rate>/<int:NOP>/', views.sign_up),\n    path('update-user/', views.user_update),\n] + router.urls",
         "detail": "task.urls",
         "documentation": {}
     },
@@ -800,7 +800,16 @@
         "kind": 2,
         "importPath": "task.views",
         "description": "task.views",
-        "peekOfCode": "def sign_up(request , Handle , Rate , NOP):\n    if Rate % 100 != 0 or NOP > 20:\n        return Response({\"Response\" : \"Rate must be valid and number of problems shouldn't be larger tha 20\"} , status.HTTP_400_BAD_REQUEST)\n    Trainee.objects.create(Handle=Handle, rate=Rate, number_of_problems=NOP)\n    return Response({\"Response\" : \"User Added\"} , status.HTTP_200_OK)\n# ------------------- for testing ----------------- #\n# delete all tasks and restore the problems\n@api_view(['GET'])\n@permission_classes([IsRegistered])\ndef clear_tasks(request):",
+        "peekOfCode": "def sign_up(request , Handle , Rate , NOP):\n    if Rate % 100 != 0 or NOP > 20:\n        return Response({\"Response\" : \"Rate must be valid and number of problems shouldn't be larger tha 20\"} , status.HTTP_400_BAD_REQUEST)\n    Trainee.objects.create(Handle=Handle, rate=Rate, number_of_problems=NOP)\n    return Response({\"Response\" : \"User Added\"} , status.HTTP_200_OK)\n@api_view(['PUT'])\n@permission_classes([IsRegistered])\ndef user_update(request):\n    user = Trainee.objects.first()\n    new_handle = request.data.get('handle', user.Handle)",
+        "detail": "task.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_update",
+        "kind": 2,
+        "importPath": "task.views",
+        "description": "task.views",
+        "peekOfCode": "def user_update(request):\n    user = Trainee.objects.first()\n    new_handle = request.data.get('handle', user.Handle)\n    new_rate = request.data.get('rate', user.rate)\n    new_NOP = request.data.get('NOP', user.number_of_problems)\n    if new_handle == user.Handle and new_rate == user.rate and new_NOP == user.number_of_problems:\n        return Response({\"Response\" : \"NOTHING TO UPDATE\"} , status.HTTP_400_BAD_REQUEST)\n    user.Handle = new_handle\n    user.rate = new_rate\n    user.number_of_problems = new_NOP",
         "detail": "task.views",
         "documentation": {}
     },
