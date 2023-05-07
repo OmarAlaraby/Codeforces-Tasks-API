@@ -60,13 +60,28 @@ enjoy :)
 
 ##### endpoint : http://127.0.0.1:8000/api/sign-up/Handle/Rate/NOP/
 
+##### method : POST
+
 this endpoint takes [ Handle , Rate , number of problems ] as a parameters , if the user is already signed in, it will return ERROR 403.
+
+<br><br>
+
+
+- ### update user's data
+
+##### endpoint : http://127.0.0.1:8000/api/update-user/
+
+##### method : PUT
+
+this endpoint takes **one or more** of [ handle , rate , NOP ] as a parameters.
 
 <br><br>
 
 - ### Create new task
 
 ##### endpoint : http://127.0.0.1:8000/api/get-new-task/
+
+##### method : GET
 
 make sure to do the following steps:
 1. replace the number_of_problems with an integer value
@@ -79,18 +94,27 @@ make sure to do the following steps:
 <br><br>
 
 - ### view all tasks you have created : 
+
 ##### endpoint : http://127.0.0.1:8000/api/all-tasks/
+
+##### method : GET
 
 
 <br><br>
 
 - ### delete all tasks you have created
+
 ##### endpoint : http://127.0.0.1:8000/api/clear-all-tasks/
+
+##### method : DELETE
 
 <br><br>
 
 - ### restore all problems
+
 ##### endpoint : http://127.0.0.1:8000/api/restore-all-problems/
+
+##### method : GET
 
 why you need to restore problems ?
 the problems in all tasks are unique. So, if deleted all tasks you need to restore all problems if you want.
