@@ -56,6 +56,14 @@ enjoy :)
 ## end points
 <br>
 
+- ### sign up
+
+##### endpoint : http://127.0.0.1:8000/api/sign-up/Handle/Rate/NOP/
+
+this endpoint takes [ Handle , Rate , number of problems ] as a parameters , if the user is already signed in, it will return ERROR 403.
+
+<br><br>
+
 - ### Create new task
 
 ##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
