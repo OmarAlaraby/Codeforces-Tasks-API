@@ -66,7 +66,7 @@ this endpoint takes [ Handle , Rate , number of problems ] as a parameters , if 
 
 - ### Create new task
 
-##### endpoint : http://127.0.0.1:8000/api/get-new-task/curr_rate/number_of_problems/
+##### endpoint : http://127.0.0.1:8000/api/get-new-task/
 
 make sure to do the following steps:
 1. replace the number_of_problems with an integer value
